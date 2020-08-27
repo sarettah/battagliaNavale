@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- drawable/circle_card_icon.xml -->
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient android:startColor="#488AFF"
+                android:endColor="#488AFF"
+                android:angle="270" />
+            <corners android:radius="1dp" />
+            <stroke android:width="2px" android:color="#FAFAFA" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ship_selected_white"
+        android:gravity="top|center"
+        android:height="52dp"
+        android:width="52dp"/>
+</layer-list>

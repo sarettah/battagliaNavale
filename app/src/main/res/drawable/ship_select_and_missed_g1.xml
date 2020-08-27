@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- drawable/circle_card_icon.xml -->
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient android:startColor="#488AFF"
+                android:endColor="#488AFF"
+                android:angle="270" />
+            <corners android:radius="1dp" />
+            <stroke android:width="2px" android:color="#292929" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ship_select_and_missed_dark_g1"
+        android:gravity="top|center"
+        android:height="52dp"
+        android:width="60dp"
+        android:top="12dp"/>
+</layer-list>
